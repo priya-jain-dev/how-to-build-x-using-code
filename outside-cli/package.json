@@ -1,0 +1,26 @@
+{
+  "name": "outside-cli",
+  "version": "1.0.0",
+  "description": "CLI example second ",
+  "main": "index.js",
+  "bin": {
+    "outside-cli": "./bin/outside"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priya-jain-dev/how-to-build-x-using-code/outside-cli"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "priya-jain-dev",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "minimist": "^1.2.5",
+    "ora": "^6.0.1"
+  }
+}
