@@ -1,29 +1,23 @@
 {
   "name": "tailwind-pj-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A CLI for generating starter files for different JS frameworks with tailwindCSS pre-installed",
   "main": "./bin/index.js",
   "bin": {
-    "tcli": "./bin/index.js"
+    "tcli-pj": "./bin/index.js"
   },
   "scripts": {
-    "start": "node ./bin/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/index.js"
   },
-  "keywords": ["cli", "tailwindcss", "nodejs"],
+  "keywords": [
+    "cli",
+    "tailwindcss",
+    "nodejs"
+  ],
   "author": "priya-jain-dev",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.0.0",
     "inquirer": "^8.2.0",
     "shelljs": "^0.8.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/priya-jain-dev/how-to-build-x-using-code/tree/master/tailwind-pj-cli.git"
-  },
-  "bugs": {
-    "url": "https://github.com/priya-jain-dev/how-to-build-x-using-code/issues"
-  },
-  "homepage": "https://github.com/priya-jain-dev/how-to-build-x-using-code/issues#readme"
+  }
 }
